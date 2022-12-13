@@ -159,3 +159,101 @@ main {
   width: 255px;
   height: 78px;
 }
+
+/* WHY CHOOSE US DESIGN!!! */
+.choose-container {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.choose-card-container {
+  border: 1px solid black;
+  border-radius: 1rem;
+  width: 100%;
+  height: 46rem;
+  background: var(--color-grey-dark-blue);
+}
+
+.choose-card-container-text {
+  border: 1px solid black;
+  width: 36%;
+  height: 30%;
+  margin: 100px auto 0;
+}
+
+.choose-card-container-text h4 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--color-light-cream);
+  text-align: center;
+  margin-block: 1rem;
+}
+
+.choose-card-container-text p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  color: var(--color-light-cream);
+  text-align: center;
+}
+
+.the-3box-container {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  position: absolute;
+  /* background: red; */
+  width: 95%;
+  right: 0;
+  left: 0;
+  top: 2000px;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px solid black;
+  width: 95%;
+  height: 382px;
+  position: relative;
+  /* top: -192px; */
+  background: var(--color-dark-cyan);
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.box h4{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--color-light-cream);
+}
+
+.box p{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--color-light-cream);
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.box img{
+  margin: ;
+  margin: auto;
+  border: 1px solid black;
+}
