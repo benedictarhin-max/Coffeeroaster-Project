@@ -32,11 +32,24 @@ main {
   /* border: 1px solid black; */
 }
 
+button{
+  width: 15%;
+  height: 56px;
+  border-radius: 0.5rem;
+  background: var(--color-dark-cyan);
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: var(--color-light-cream);
+  margin: 4.6rem 0 0 0;
+  border: none;
+}
+
 .image-container {
   background-image: url(./assets/home/desktop/image-hero-coffeepress.jpg);
   width: 100%;
   height: 40rem;
-  border: 1px solid black;
   background-size: 100%;
   background-repeat: none;
 }
@@ -44,8 +57,8 @@ main {
 .coffe-image-text {
   width: 35%;
   word-wrap: break-word;
-  border: 1px solid black;
   margin: 9rem 0rem 0rem 13rem;
+  border: 1px solid black;
 }
 
 .coffe-image-text h1 {
@@ -55,7 +68,6 @@ main {
   font-size: 72px;
   line-height: 72px;
   color: var(--color-light-cream);
-  border: 1px solid black;
   margin-bottom: 2rem;
 }
 
@@ -71,7 +83,7 @@ main {
   border: 1px solid black;
 }
 
-.image-container-button {
+.image-container button {
   width: 40%;
   height: 56px;
   /* margin: 4.5rem 0 0 0; */
@@ -86,7 +98,6 @@ main {
 }
 
 .our-collection-container {
-  border: 2px solid black;
   margin-inline: 5rem;
   margin: 136px 200px;
   height: 525px;
@@ -114,7 +125,6 @@ main {
   width: 100%;
   /* height: 525px; */
   /* margin: 136px 0px 165px 165px; */
-  border: 1px solid black;
 }
 
 .cards {
@@ -162,12 +172,10 @@ main {
 
 /* WHY CHOOSE US DESIGN!!! */
 .choose-container {
-  border: 1px solid black;
   width: 100%;
 }
 
 .choose-card-container {
-  border: 1px solid black;
   border-radius: 1rem;
   width: 100%;
   height: 46rem;
@@ -175,7 +183,6 @@ main {
 }
 
 .choose-card-container-text {
-  border: 1px solid black;
   width: 36%;
   height: 30%;
   margin: 100px auto 0;
@@ -205,7 +212,6 @@ main {
 }
 
 .the-3box-container {
-  /* border: 1px solid black; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-content: center;
@@ -219,11 +225,9 @@ main {
 }
 
 .box {
-  border: 1px solid black;
   width: 95%;
   height: 382px;
   position: relative;
-  /* top: -192px; */
   background: var(--color-dark-cyan);
   border-radius: 1rem;
   margin: auto;
@@ -248,12 +252,59 @@ main {
   text-align: center;
   color: var(--color-light-cream);
   width: 80%;
-  border: 1px solid black;
   margin: auto;
 }
 
 .box img{
   margin: ;
   margin: auto;
-  border: 1px solid black;
+}
+
+.main-container{
+  height: 565px;
+  margin-block: 15rem;
+}
+
+.works-cards-container{
+  width: 100%;
+  height: 453px;
+  margin-top: 7rem;
+}
+
+hr{
+  margin-block: 2rem;
+  background: var(--color-pale-orange);
+}
+
+.works-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works-cards-text h1{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  color: var(--color-pale-orange);
+}
+
+.works-cards-text h2{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  color: var(--color-grey-dark-blue);
+  margin-block: 2rem;
+}
+
+.works-cards-text p{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-grey-dark-blue);
+  width: 95%;
+  margin-block: 2rem;
 }
