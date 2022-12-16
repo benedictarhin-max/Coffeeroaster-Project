@@ -23,27 +23,33 @@ body {
 }
 
 main {
-  width: 95vw;
-  margin-inline: auto;
+  width: 90%;
+  margin: auto;
+}
+
+.hero {
+  /* border: 3px solid black; */
+  width: 100%;
+  margin: 0 auto 8.5rem auto;
 }
 
 .image-container {
   background-image: url(./assets/home/desktop/image-hero-coffeepress.jpg);
   width: 100%;
   height: 40rem;
-  background-size: 100%;
-  background-repeat: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 7.3rem 0 7.3rem 5.3rem;
 }
 
-.coffe-image-text{
-  background: red;
+.coffee-image-text {
+  background: transparent;
   width: 493px;
   height: 367px;
-  margin: 0rem 14rem 0rem 7rem;
 }
 
-.coffe-image-text h1{
-  font-family: 'Fraunces 9pt';
+.coffee-image-text h1 {
+  font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -52,8 +58,8 @@ main {
   color: var(--color-light-cream);
 }
 
-.coffe-image-text p{
-  font-family: 'Barlow';
+.coffee-image-text p {
+  font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,92 +70,25 @@ main {
   opacity: 0.8;
   margin-top: 2rem;
 }
-/* button{
-  width: 15%;
-  height: 56px;
-  border-radius: 0.5rem;
-  background: var(--color-dark-cyan);
-  font-family: "Fraunces 9pt";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: var(--color-light-cream);
-  border: none;
-  position: absolute;
-} */
 
-/* .coffee-button{
-  position: relative;
-  left: 0;
-  right: 0;
-  top: -200px;
-}  */
-
-/* .works-button{
-  position: relative;
-  left: 0;
-  right: 0;
-  top: -20rem;
-}  */
-
-/* .coffe-image-text {
-  width: 35%;
-  word-wrap: break-word;
-  margin: 20rem 10rem auto;
+.our-collection-container {
+  width: 85%;
+  margin: 0 auto 12.5rem auto;
   border: 1px solid black;
-} */
+}
 
-/* .coffe-image-text h1 {
-  font-family: "Fraunces 9pt";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 72px;
-  color: var(--color-light-cream);
-  margin-bottom: 2rem;
-} */
-
-/* .coffe-image-text p {
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: var(--color-light-cream);
+.our-collection {
+  width: 100%;
+  margin: auto;
   mix-blend-mode: normal;
-  opacity: 0.8;
-  border: 1px solid black;
-} */
+  opacity: 0.5;
+  background: var(--color-light-cream);
+  padding-top: 5.3rem;
+  /* border: 1px solid black; */
+  /* background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%); */
+}
 
-/* .image-container button {
-  width: 40%;
-  height: 56px;
-  border-radius: 0.5rem;
-  background: var(--color-dark-cyan);
-  font-family: "Fraunces 9pt";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: var(--color-light-cream);
-  margin: 4.6rem 0 0 0;
-} */
-
-/* .our-collection-container {
-  margin-inline: 5rem;
-  margin: 136px 200px;
-  height: 525px;
-} */
-
-/* .our-collection {
-  background: linear-gradient(
-    180deg,
-    rgba(254, 252, 247, 0.0001) 0%,
-    #fefcf7 100%
-  );
-  background-color: var(--color-light-cream);
-} */
-
-/* .our-collection h1 {
+.our-collection h1 {
   font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
@@ -157,29 +96,40 @@ main {
   line-height: 72px;
   text-align: center;
   color: var(--color-grey);
-} */
-/* .cards-container {
-  width: 100%;
-} */
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
 
-/* .cards {
+.cards-container {
+  /* background: var(--color-light-cream); */
+  /* border: 1px solid black; */
+  /* position: absolute;
+  bottom: -530px; */
+  width: 90%;
+  margin: auto;
+  margin-top: -2rem;
+}
+.cards {
+  /* background: blue; */
   display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+}
 
-/* .cards img {
-  width: 20%;
-  height: 193px;
-} */
+.cards img {
+  width: 25%;
+  /* border: 1px solid black; */
+  /* margin: 0rem 3.2rem 0rem 3.2rem; */
+}
 
-/* .text-container {
+.text-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-} */
+  justify-content: space-around;
+  /* align-items: center; */
+  /* background: crimson; */
+}
 
-/* .text-container h3 {
+.text-container h3 {
   font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
@@ -187,10 +137,10 @@ main {
   line-height: 32px;
   text-align: center;
   color: var(--color-grey-dark-blue);
-  width: 255px;
-} */
+  height: 32px;
+}
 
-/* .text-container p {
+.text-container p {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -198,147 +148,199 @@ main {
   line-height: 26px;
   text-align: center;
   color: var(--color-grey-dark-blue);
-  width: 255px;
   height: 78px;
-} */
+  margin-top: 1rem;
+  /* border: 1px solid black; */
+  margin-top: 1rem;
+}
 
-/* WHY CHOOSE US DESIGN!!! */
-/* .choose-container {
-  width: 100%;
-} */
+.text-container div {
+  width: 225px;
+  height: 134px;
+}
 
-/* .choose-card-container {
-  border-radius: 1rem;
-  width: 100%;
-  height: 46rem;
-  background: var(--color-grey-dark-blue);
-} */
-
-/* .choose-card-container-text {
-  width: 36%;
-  height: 30%;
-  margin: 20rem auto;
+.choose-container {
   border: 1px solid black;
-} */
+  height: 45.5rem;
+  margin: 0 0 12.5rem 0;
+}
 
-/* .choose-card-container-text h4 {
+.choose-card-container {
+  background: var(--color-grey-dark-blue);
+  width: 100%;
+  height: 36rem;
+  border-radius: 8px;
+}
+
+.choose-card-container-text {
+  width: 33.75rem;
+  height: 10rem;
+  margin: auto;
+  padding: 6.25rem;
+}
+
+.choose-card-container-text h4 {
   font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
-  color: var(--color-light-cream);
   text-align: center;
-  margin-block: 1rem;
-} */
+  color: var(--color-light-cream);
+  margin-bottom: 2rem;
+}
 
-/* .choose-card-container-text p {
+.choose-card-container-text p {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  text-align: center;
+  color: var(--color-light-cream);
   mix-blend-mode: normal;
   opacity: 0.8;
-  color: var(--color-light-cream);
-  text-align: center;
-} */
+}
 
-/* .the-3box-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  place-content: center;
-  position: absolute;
-  width: 95%;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
-} */
+.the-3box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 5px solid black; */
+  margin-top: -14.2rem;
+}
 
-/* .box {
-  width: 95%;
-  height: 382px;
-  position: relative;
+.box {
+  width: 21.8rem;
+  height: 23.8rem;
   background: var(--color-dark-cyan);
-  border-radius: 1rem;
-  margin: auto;
-} */
+  border-radius: 8px;
+}
 
-/* .box h4{
-  font-family: 'Fraunces 9pt';
+.box img {
+  margin: 4.5rem 0rem 3.5rem 8.4rem;
+  height: 4.5rem;
+}
+
+.box h4 {
+  font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
   color: var(--color-light-cream);
-} */
+  margin: 0 0 1.5rem 0;
+}
 
-/* .box p{
-  font-family: 'Barlow';
+.box p {
+  font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   color: var(--color-light-cream);
+}
+
+.main-container {
+  border: 1px solid black;
   width: 80%;
-  margin: auto;
-} */
+  margin: 4rem auto;
+}
 
-/* .box img{
-  margin: ;
-  margin: auto;
-} */
+.main-container h4 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-grey);
+  margin-bottom: 5rem;
+}
 
-/* .main-container{
-  height: 565px;
-  margin-block: 15rem;
-} */
-
-/* .works-cards-container{
-  width: 100%;
-  height: 453px;
-  margin-top: 7rem;
-} */
-
-/* hr{
-  margin-block: 2rem;
+hr {
+  width: 80%;
+  height: 0.3rem;
   background: var(--color-pale-orange);
-  width: 70%;
-  height: 0.15rem;
   border: none;
-} */
+  outline: none;
+  border-radius: 0.5rem;
+  margin: 0 0 5.1rem 0;
+}
 
-/* .works-cards{
+.hr-circle{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-} */
+  width: 80%;
+  margin: -6rem 0 5.1rem 0;
+}
 
-/* .works-cards-text h1{
-  font-family: 'Fraunces 9pt';
+.circle{
+  height: 1.5rem;
+  width: 1.5rem;  
+  background: var(--color-light-cream);
+  border-radius: 100%;
+  border: 4px solid var(--color-dark-cyan);
+}
+
+.works-cards {
+  display: flex;
+}
+
+.works-cards-text {
+  border: 1px solid black;
+}
+
+.works-cards-text h1 {
+  font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
+  line-height: 72px;
   color: var(--color-pale-orange);
-} */
+  margin: 0 0 2.3rem 0;
+}
 
-/* .works-cards-text h2{
-  font-family: 'Fraunces 9pt';
+.works-cards-text h2 {
+  font-family: "Fraunces 9pt";
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
+  line-height: 36px;
   color: var(--color-grey-dark-blue);
-  margin-block: 2rem;
-} */
+  margin: 0 0 2.6rem 0;
+}
 
-/* .works-cards-text p{
-  font-family: 'Barlow';
+.works-cards-text p {
+  font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 26px;
   color: var(--color-grey-dark-blue);
-  width: 95%;
-  margin-block: 2rem;
-} */
+}
+
+button {
+  border-radius: 0.5rem;
+  background: var(--color-dark-cyan);
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: var(--color-light-cream);
+  border: none;
+  cursor: pointer;
+}
+
+.coffee-button {
+  margin: 3.5rem 0 0 0;
+  width: 40%;
+  height: 56px;
+}
+
+.works-button {
+  margin: 0 0 0 8.5rem;
+  width: 15%;
+  height: 56px;
+}
