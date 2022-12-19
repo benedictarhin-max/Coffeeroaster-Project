@@ -27,8 +27,7 @@ main {
   margin: auto;
 }
 
-.hero {
-  /* border: 3px solid black; */
+/* .hero {
   width: 100%;
   margin: 0 auto 8.5rem auto;
 }
@@ -71,6 +70,36 @@ main {
   margin-top: 2rem;
 }
 
+button {
+  border-radius: 0.5rem;
+  background: var(--color-dark-cyan);
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: var(--color-light-cream);
+  border: none;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+button:hover {
+  background: var(--color-light-cream);
+  color: var(--color-dark-cyan);
+}
+
+.coffee-button {
+  margin: 3.5rem 0 0 0;
+  width: 40%;
+  height: 56px;
+}
+
+.works-button {
+  margin: 0 0 0 8.5rem;
+  width: 15%;
+  height: 56px;
+}
+
 .our-collection-container {
   width: 85%;
   margin: 0 auto 12.5rem auto;
@@ -84,8 +113,6 @@ main {
   opacity: 0.5;
   background: var(--color-light-cream);
   padding-top: 5.3rem;
-  /* border: 1px solid black; */
-  /* background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%); */
 }
 
 .our-collection h1 {
@@ -98,35 +125,25 @@ main {
   color: var(--color-grey);
   mix-blend-mode: normal;
   opacity: 0.8;
-  /* border: 1px solid black; */
   margin: 0 auto;
 }
 
 .cards-container {
-  /* background: var(--color-light-cream); */
-  /* border: 1px solid black; */
-  /* position: absolute;
-  bottom: -530px; */
   width: 90%;
   margin: auto;
   margin-top: -2rem;
 }
 .cards {
-  /* background: blue; */
   display: flex;
 }
 
 .cards img {
   width: 25%;
-  /* border: 1px solid black; */
-  /* margin: 0rem 3.2rem 0rem 3.2rem; */
 }
 
 .text-container {
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
-  /* background: crimson; */
 }
 
 .text-container h3 {
@@ -150,7 +167,6 @@ main {
   color: var(--color-grey-dark-blue);
   height: 78px;
   margin-top: 1rem;
-  /* border: 1px solid black; */
   margin-top: 1rem;
 }
 
@@ -206,7 +222,6 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* border: 5px solid black; */
   margin-top: -14.2rem;
 }
 
@@ -321,32 +336,4 @@ hr {
   color: var(--color-grey-dark-blue);
 }
 
-button {
-  border-radius: 0.5rem;
-  background: var(--color-dark-cyan);
-  font-family: "Fraunces 9pt";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: var(--color-light-cream);
-  border: none;
-  cursor: pointer;
-  transition: 0.8s;
-}
-
-button:hover {
-  background: var(--color-light-cream);
-  color: var(--color-dark-cyan);
-}
-
-.coffee-button {
-  margin: 3.5rem 0 0 0;
-  width: 40%;
-  height: 56px;
-}
-
-.works-button {
-  margin: 0 0 0 8.5rem;
-  width: 15%;
-  height: 56px;
-}
+*/
